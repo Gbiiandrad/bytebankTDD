@@ -5,7 +5,7 @@
 </a>
 
 ### used API "virtualenv"
-To import the package that can be used to work with regular expressions.
+To import the package that can be used to work with the virtual environment.
 
 ```sh
 pip install virtualenv
