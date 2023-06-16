@@ -46,6 +46,3 @@ Restricted
 
 ### 📖 Documentation: <br>
 [virtualenv](https://virtualenv.pypa.io/en/latest/) <br>
-[link 2](https://realpython.com/python-requests/)
-
-### Access the requests repository [here](https://github.com/psf/requests)
