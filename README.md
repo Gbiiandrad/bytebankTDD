@@ -1,7 +1,10 @@
 # bytebankTDD
 
 <a href="https://pypi.org/project/virtualenv/">
-  <img src="https://img.shields.io/badge/pypi-20.23.0-blue" alt="latest release" /> <br>
+  <img src="https://img.shields.io/badge/virtualenv-20.23.0-blue" alt="latest release" />
+</a>
+<a href="https://pypi.org/project/pytest/#histor">
+  <img src="https://img.shields.io/badge/pytest-7.3.2-blue" alt="latest release" /> <br>
 </a>
 
 ### used API "virtualenv"
@@ -44,5 +47,9 @@ Restricted
 200
 ```
 
+## used API "pytest"
+To import the package that can be used to work with the pytest.
+
 ### 📖 Documentation: <br>
 [virtualenv](https://virtualenv.pypa.io/en/latest/) <br>
+[pytest](https://docs.pytest.org/en/7.3.x/) <br>
