@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/pytest-7.3.2-blue" alt="latest release" /> <br>
 </a>
 
-### used API "virtualenv"
+## used API "virtualenv"
 To import the package that can be used to work with the virtual environment.
 
 ```sh
@@ -47,8 +47,19 @@ Restricted
 200
 ```
 
-## used API "pytest"
-To import the package that can be used to work with the pytest.
+## used framework "pytest"
+To import the package that can be used to work with pytest. Pytest is a framework specialized in tests.
+```sh
+pip install pytest
+```
+### 
+Running the `pip freeze` command in the terminal, we will receive a list of all packages installed in our virtual environment. It is a good practice to create a .txt file to gather the information of everything we are installing, to keep our project organized. The `pip freeze > requirements.txt` command is for generating this file.
+```sh
+pip freeze
+```
+```sh
+pip freeze > requirements.txt
+```
 
 ### 📖 Documentation: <br>
 [virtualenv](https://virtualenv.pypa.io/en/latest/) <br>
