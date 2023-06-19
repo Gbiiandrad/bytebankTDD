@@ -39,14 +39,6 @@ Restricted
 >>>  venv\Scripts\Activate
 ```
 
-## Example:
-```python
->>> import requests
->>> r = requests.get("https://api.github.com")
->>> print(r)
-200
-```
-
 ## used framework "pytest"
 To import the package that can be used to work with pytest. Pytest is a framework specialized in tests.
 ```sh
