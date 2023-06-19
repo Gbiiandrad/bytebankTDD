@@ -25,7 +25,7 @@ reated virtual environment
 To activate the environment, we'll run source 'venv/bin/activate. From now on, there will be a tag (venv) at the beginning of the line in the terminal, indicating that we are in this virtual environment.
 venv\Scripts\Activate
 
-### for Linux:
+### for MacOS or Linux:
 ```python
 >>> source venv/bin/activate
 ```
