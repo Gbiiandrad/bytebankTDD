@@ -22,8 +22,8 @@ reated virtual environment
 ```
 
 ## Activate the environment
-To activate the environment, we'll run source venv/bin/activate. From now on, there will be a tag (venv) at the beginning of the line in the terminal, indicating that we are in this virtual environment.
-venv\Scripts\Activate
+To activate the environment, we'll run `source venv/bin/activate`. From now on, there will be a tag (venv) at the beginning of the line in the terminal, indicating that we are in this virtual environment.
+`venv\Scripts\Activate`
 
 ### for MacOS or Linux:
 ```python
@@ -31,7 +31,7 @@ venv\Scripts\Activate
 ```
 
 ### For Windows: 
-before using the command (venv \Scripts\Activate), you need to release the security system with the following commands:
+before using the command `(venv\Scripts\Activate)`, you need to release the security system with the following commands:
 ```python
 >>> Get-ExecutionPolicy 
 Restricted
