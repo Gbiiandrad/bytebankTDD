@@ -53,6 +53,13 @@ pip freeze
 pip freeze > requirements.txt
 ```
 
+## Test
+to perform the tests in the terminal
+```sh
+pytest -v
+```
+
+
 ### 📖 Documentation: <br>
 [virtualenv](https://virtualenv.pypa.io/en/latest/) <br>
 [pytest](https://docs.pytest.org/en/7.3.x/) <br>
