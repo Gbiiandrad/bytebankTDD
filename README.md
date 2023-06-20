@@ -22,7 +22,7 @@ reated virtual environment
 ```
 
 ## Activate the environment
-To activate the environment, we'll run source 'venv/bin/activate. From now on, there will be a tag (venv) at the beginning of the line in the terminal, indicating that we are in this virtual environment.
+To activate the environment, we'll run source venv/bin/activate. From now on, there will be a tag (venv) at the beginning of the line in the terminal, indicating that we are in this virtual environment.
 venv\Scripts\Activate
 
 ### for MacOS or Linux:
