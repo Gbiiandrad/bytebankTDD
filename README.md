@@ -1,10 +1,13 @@
 # bytebankTDD
 
 <a href="https://pypi.org/project/virtualenv/">
-  <img src="https://img.shields.io/badge/virtualenv-20.23.0-blue" alt="latest release" />
+  <img src="https://img.shields.io/badge/virtualenv-v20.23.0-blue" alt="latest release" />
 </a>
 <a href="https://pypi.org/project/pytest/#histor">
-  <img src="https://img.shields.io/badge/pytest-7.3.2-blue" alt="latest release" /> <br>
+  <img src="https://img.shields.io/badge/pytest-v7.3.2-blue" alt="latest release" /> <br>
+</a>
+<a href="https://pypi.org/project/pytest-cov/">
+  <img src="https://img.shields.io/badge/pytest-cov-v4.1.0-blue" alt="latest release" /> <br>
 </a>
 
 ## used API "virtualenv"
@@ -53,13 +56,25 @@ pip freeze
 pip freeze > requirements.txt
 ```
 
-## Test
-to perform the tests in the terminal
+### Test
+to test "pytest" use command in terminal
 ```sh
 pytest -v
+```
+
+## used "pytest-cov"
+help us verify test coverage! Pytest has an extension called pytest-cov.
+```sh
+pip install pytest-cov
+```
+### test 
+to test "pytest-cov" use command in terminal
+```sh
+pytest --cov
 ```
 
 
 ### 📖 Documentation: <br>
 [virtualenv](https://virtualenv.pypa.io/en/latest/) <br>
 [pytest](https://docs.pytest.org/en/7.3.x/) <br>
+[pytest-cov](https://pytest-cov.readthedocs.io/en/latest/readme.html#installation:~:text=software%3A%20MIT%20license-,Installation%C2%B6,-Install%20with%20pip) <br>
