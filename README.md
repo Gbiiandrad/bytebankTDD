@@ -67,10 +67,15 @@ help us verify test coverage! Pytest has an extension called pytest-cov.
 ```sh
 pip install pytest-cov
 ```
-### test 
+### Test 
 to test "pytest-cov" use command in terminal
 ```sh
 pytest --cov
+```
+<br>
+To find out which code snippets are missing from the tests, use the command below and the return will be a table, if you have cloned it in this project
+```sh
+pytest --cov=codigo project/tests/
 ```
 
 
